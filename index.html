@@ -10,8 +10,14 @@
 <link rel="stylesheet" href="style.css">
     <title>OnlyPaws</title>
   </head>
+  <style>
+    body{
+      background-color: #d3d3d3;
+    }
+  
+  </style>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <img src="logo.png" style="background-color: #0f0900; border-radius: 40%; " alt="image" width="100" height="100" />          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,12 +28,12 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="./schedule.html">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Post</a>
+                <a class="nav-link" href="./post.html">Post</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" >
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
@@ -45,7 +51,7 @@
               <div>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button id="search1" class="btn btn-outline-success" type="submit">Search</button>
                   </form>
               </div>
               
@@ -60,10 +66,68 @@
      
 
       </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height:450px;">
+          <div class="carousel-item active">
+            <img src="./dog.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./OIP.jpeg" class="d-block w-100" style="height: 500px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./360_F_282281016_H1uPO6dYx5AsYLTHW5fRyDhSI2xnaYPh.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="heading1">Post Section</h1>
 
-   
-     
-   
+      <div class="card">
+        <img src="./dog.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a ipsa tenetur pariatur, ea enim quisquam, temporibus quas mollitia ducimus ex optio nam delectus autem perspiciatis dolor cumque nemo laboriosam.</p>
+          <a href="./card1.html" class="btn btn-primary">See more....</a>
+        </div>
+      </div>
+      
+      <div class="card" >
+        <img src="./bgdu.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a ipsa tenetur pariatur, ea enim quisquam, temporibus quas mollitia ducimus ex optio nam delectus  efuhefh gyfeefgfyfevyf</p>
+          <a href="./card2.html" class="btn btn-primary">See more....</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img src="./dog1.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a ipsa tenetur pariatur, ea enim quisquam, temporibus quas moliii optio nabjcuicbchgfeyuvefm delectus autem perspiciatis dolor cumque nemo laboriosam.</p>
+          <a href="./card3.html" class="btn btn-primary">See more....</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img src="./g.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Post</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia a ipsa tenetur pariatur, ea enim quisquam, temporibus quas mollitia  optio nam delectus autem perspiciatis dolor cumque nemo laboriosam.</p>
+          <a href="./card4.html" class="btn btn-primary">See more....</a>
+        </div>
+      </div>
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     

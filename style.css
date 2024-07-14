@@ -1,5 +1,16 @@
+.navbar{
+    background: linear-gradient(135deg, #0b1957, #fa9ebc, #d3d3d3); /* Navy to Pink to Light Grey */
+}
 .navbar ul li {
     padding: 20px;
+}
+.navbar ul li a {
+   color: #d3d3d3;
+}
+.navbar ul li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
 }
 .d-flex{
     margin-top: 25px;
@@ -41,9 +52,113 @@ input#btn{
     margin-right: 207px;
     padding-left: 10px;
     width: 10%;
+    background-color: #0b1957;
+}
+#login:hover{
+background-color: black;
+color: white;
+border-radius: 50px;
+    width: 15%;
+ 
 }
 #sign{
     margin-right: 9px;
     padding-left: 10px;
     width: 10%;
+    background-color: #0b1957;
+}
+#sign:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 15%;
+}
+.card{
+    width: 18rem;
+     float: left;
+      margin: 30px;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.calendar {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.month ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.month ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.month .prev,
+.month .next {
+    cursor: pointer;
+}
+
+.weekdays {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weekdays li {
+    width: 13.6%;
+    text-align: center;
+    font-weight: bold;
+    color: #0b1957;
+}
+
+.days {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days li {
+    width: 13.6%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.days li:hover {
+    background-color: #ddd;
+}
+
+.days li:nth-child(7n+6),
+.days li:nth-child(7n+7) {
+    color: #f00;
+}
+.heading1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#search1:hover{
+    width: 110px;
+    
+}
+.dropdown-menu{
+    background: linear-gradient(135deg, #0b1957, #fa9ebc, #d3d3d3); /* Navy to Pink to Light Grey */
 }
